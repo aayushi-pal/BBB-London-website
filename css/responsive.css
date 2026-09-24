@@ -98,6 +98,7 @@
 
 }
 
+
 /* =====================================================
    HERO - MOBILE
 ===================================================== */
@@ -213,6 +214,7 @@
 
 }
 
+
 /* =====================================================
    SMALL MOBILE
 ===================================================== */
@@ -225,6 +227,7 @@
 
     }
 
+
     .hero-content {
 
         left: 20px;
@@ -232,6 +235,7 @@
         right: 20px;
 
     }
+
 
     .brand-name {
 
@@ -241,11 +245,13 @@
 
     }
 
+
     .hero-title {
 
         font-size: 38px;
 
     }
+
 
     .hero-description {
 
@@ -253,11 +259,13 @@
 
     }
 
+
     .hero-features {
 
         gap: 15px;
 
     }
+
 
     .feature-item {
 
@@ -269,6 +277,7 @@
 
     }
 
+
     .feature-icon {
 
         width: 38px;
@@ -277,11 +286,13 @@
 
     }
 
+
     .feature-icon i {
 
         font-size: 15px;
 
     }
+
 
     .feature-text {
 
@@ -291,11 +302,12 @@
 
 }
 
+
 /* =====================================================
    HERO SECTION - MOBILE 360px
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .hero-section {
 
@@ -487,6 +499,7 @@
 
 }
 
+
 /* =====================================================
    PROJECT SECTION - TABLET
 ===================================================== */
@@ -673,7 +686,7 @@
    PROJECT SECTION - 360px MOBILE
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .project-section {
 
@@ -748,6 +761,7 @@
     }
 
 }
+
 
 /* =====================================================
    INDUSTRY SECTION - TABLET
@@ -1007,7 +1021,7 @@
    360px
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .industry-heading h2 {
 
@@ -1037,6 +1051,7 @@
     }
 
 }
+
 
 /* =====================================================
    ABOUT PROJECT - TABLET
@@ -1222,7 +1237,7 @@
    ABOUT PROJECT - 360px MOBILE
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     /* ================================================
        SECTION
@@ -1402,6 +1417,7 @@
     }
 
 }
+
 
 /* =====================================================
    TECHNOLOGY SECTION - TABLET
@@ -1654,7 +1670,7 @@
    TECHNOLOGIES - 360px MOBILE
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .technology-section {
         padding: 30px 15px 25px;
@@ -1832,6 +1848,7 @@
     }
 
 }
+
 
 /* =====================================================
    CHALLENGES - TABLET
@@ -2060,7 +2077,7 @@
    360px
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .challenges-title {
 
@@ -2330,7 +2347,7 @@
    360px
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .results-section {
         margin-top: 0px;
@@ -2594,7 +2611,7 @@
    360px
 ===================================================== */
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 451px) {
 
     .final-cta-section {
         height: 300px;
