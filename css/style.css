@@ -1,0 +1,2135 @@
+/* =====================================================
+   BASIC RESET
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+
+}
+
+
+/* =====================================================
+   HERO SECTION
+===================================================== */
+
+.hero-section {
+
+    width: 100%;
+
+    height: 90vh;
+
+    min-height: 600px;
+
+    background-image: url("../images/Hero/BBB-London-Hero-Img.png");
+
+    background-size: contain;
+
+    background-position: top;
+
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+/* =====================================================
+   HERO CONTENT
+===================================================== */
+
+.hero-content {
+
+    position: absolute;
+
+    left: 5%;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 48%;
+
+    color: white;
+
+}
+
+
+/* =====================================================
+   BRAND NAME
+===================================================== */
+
+.brand-name {
+
+    font-size: 10px;
+
+    font-weight: 200;
+
+    letter-spacing: 6px;
+
+    margin-top: 100px;
+
+    position: absolute;
+
+    color: white;
+
+}
+
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
+
+.hero-title {
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 50px;
+
+    font-weight: 400;
+
+    line-height: 1.05;
+
+    margin-top: 140px;
+
+    color: white;
+
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.hero-description {
+
+    font-size: 18px;
+
+    font-weight: 300;
+
+    line-height: 1.5;
+
+    margin-bottom: 45px;
+
+    color: white;
+
+}
+
+
+/* =====================================================
+   FEATURES
+===================================================== */
+
+.hero-features {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 40px;
+
+}
+
+
+/* =====================================================
+   FEATURE ITEM
+===================================================== */
+
+.feature-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    gap: 15px;
+    padding-right: 20px;
+
+}
+
+.feature-item:not(:last-child)::after {
+    content: "";
+
+    position: absolute;
+
+    right: 0;
+
+    top: 12px;
+
+    width: 1px;
+
+    height: 65px;
+
+    background-color: rgba(255, 255, 255, 0.552);
+}
+
+
+/* =====================================================
+   FEATURE ICON
+===================================================== */
+
+.feature-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border: 1px solid white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+}
+
+
+.feature-icon i {
+
+    font-size: 23px;
+
+    color: white;
+
+}
+
+
+/* =====================================================
+   FEATURE TEXT
+===================================================== */
+
+.feature-text {
+
+    font-size: 10px;
+    text-align: left;
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    letter-spacing: 1.5px;
+
+    color: white;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   PROJECT INTRODUCTION SECTION
+===================================================== */
+
+.project-intro {
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 400px;
+
+    background-color: #f7f5f1;
+
+    padding: 50px 5% 50px;
+
+    margin-top: -20px;
+
+    overflow: hidden;
+    border-bottom: 2px solid #ddd8d1;
+}
+
+
+/* =====================================================
+   PROJECT CONTENT
+===================================================== */
+
+.project-content {
+
+    max-width: 850px;
+
+    padding-right: 40px;
+
+}
+
+
+/* =====================================================
+   SMALL LABEL
+===================================================== */
+
+.project-label {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #777;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
+
+.project-title {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 70px;
+
+    font-weight: 700;
+
+    line-height: 0.95;
+
+    letter-spacing: -4px;
+
+    color: #111;
+
+    margin-bottom: 28px;
+
+}
+
+
+/* =====================================================
+   SUB TITLE
+===================================================== */
+
+.project-subtitle {
+
+    font-size: 30px;
+
+    font-weight: 600;
+
+    line-height: 1.15;
+
+    letter-spacing: -1.5px;
+
+    color: #292725;
+
+    margin-bottom: 22px;
+
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.project-description {
+
+    max-width: 800px;
+
+    font-size: 18px;
+
+    line-height: 1.40;
+
+    color: #383532;
+
+    margin-bottom: 32px;
+
+}
+
+
+/* =====================================================
+   TAGS
+===================================================== */
+
+.project-tags {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.project-tags span {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 8px 14px;
+
+    border: 1px solid #c0b19c;
+
+    border-radius: 30px;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.8px;
+
+    color: #484644;
+
+    background-color: #fbf2e6;
+
+}
+
+
+/* =====================================================
+   PROJECT INFORMATION
+===================================================== */
+
+.project-info {
+
+    border-top: 2px solid #ddd8d1;
+
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: center;
+
+    grid-template-columns:
+        1fr 1.5fr 1.5fr;
+
+    gap: 50px;
+
+
+}
+
+
+/* =====================================================
+   INFO LABEL
+===================================================== */
+
+.info-label {
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    color: #99938d;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* =====================================================
+   INFO VALUE
+===================================================== */
+
+.info-value {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+
+    color: #242220;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   RIGHT IMAGE
+===================================================== */
+
+.project-image-wrapper {
+
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-left: 20px;
+
+}
+
+
+/* =====================================================
+   LAPTOP IMAGE
+===================================================== */
+
+.project-image {
+
+    width: 110%;
+
+    max-width: 760px;
+
+    height: 450px;
+
+    display: block;
+
+}
+
+
+/* =====================================================
+   VISIT WEBSITE BUTTON
+===================================================== */
+
+.visit-website {
+
+    position: absolute;
+
+    top: 35px;
+
+    right: 5%;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 10px 20px;
+
+    border-radius: 40px;
+
+    background-color: #111;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.visit-website span {
+
+    font-size: 18px;
+
+    line-height: 1;
+
+}
+
+/* =====================================================
+   INDUSTRY OVERVIEW SECTION
+===================================================== */
+
+.industry-section {
+
+    width: 100%;
+
+    background-color: #f7f5f1;
+
+    padding: 60px 5% 80px;
+
+    color: #171717;
+
+}
+
+
+/* =====================================================
+   TOP HEADING
+===================================================== */
+
+.industry-heading {
+
+    padding-left: 15px;
+
+}
+
+
+.industry-label {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #77736f;
+
+    margin-bottom: 25px;
+
+}
+
+
+.industry-heading h2 {
+
+    font-size: 50px;
+
+    font-weight: 550;
+
+    line-height: 1.0;
+
+    letter-spacing: -2.0px;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.industry-description {
+
+    max-width: 550px;
+
+    padding-top: 40px;
+
+    padding-left: 20px;
+
+}
+
+
+.industry-description p {
+
+    font-size: 18px;
+
+    line-height: 1.35;
+
+    color: #66625e;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   CARDS CONTAINER
+===================================================== */
+
+.industry-cards {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    gap: 55px;
+
+    margin-top: 0px;
+
+    padding: 0 35px;
+
+}
+
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.industry-card {
+
+    width: 30%;
+
+    background-color: #f5f1e9;
+
+    border: 1px solid #e1dbd1;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+}
+
+
+/* =====================================================
+   CARD POSITION
+===================================================== */
+
+.card-one {
+
+    margin-top: 40px;
+
+}
+
+
+.card-two {
+
+    margin-top: -20px;
+
+}
+
+
+.card-three {
+
+    margin-top: 40px;
+
+}
+
+
+/* =====================================================
+   CARD CONTENT
+===================================================== */
+
+.card-content {
+
+    min-height: 150px;
+
+    padding: 20px 27px 0px;
+
+}
+
+
+/* =====================================================
+   NUMBER
+===================================================== */
+
+.card-number {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 43px;
+
+    height: 29px;
+
+    background-color: #ffffff;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    color: #65615d;
+
+    margin-bottom: 28px;
+
+}
+
+
+/* =====================================================
+   CARD TITLE
+===================================================== */
+
+.card-content h3 {
+
+    font-size: 27px;
+
+    font-weight: 550;
+
+    letter-spacing: -1px;
+
+    margin-top: -10px;
+
+    color: #202020;
+
+}
+
+
+/* =====================================================
+   CARD DESCRIPTION
+===================================================== */
+
+.card-content p {
+
+    font-size: 16px;
+
+    line-height: 1.10;
+
+    color: #69645f;
+
+    margin-top: -7px;
+
+}
+
+
+/* =====================================================
+   CARD IMAGE
+===================================================== */
+
+.card-image {
+
+    width: 100%;
+
+    height: 180px;
+
+    overflow: hidden;
+
+}
+
+
+.card-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+/* =====================================================
+   ABOUT THE PROJECT SECTION
+===================================================== */
+
+.about-project-section {
+
+    width: 100%;
+
+    background-color: #000000;
+
+    color: #ffffff;
+
+    padding: 60px 4% 55px;
+
+    overflow: hidden;
+
+}
+
+
+/* =====================================================
+   LEFT CONTENT
+===================================================== */
+
+.about-project-content {
+
+    padding-left: 15px;
+
+    padding-right: 30px;
+
+}
+
+
+/* =====================================================
+   SMALL LABEL
+===================================================== */
+
+.about-project-label {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #ffffff;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
+
+.about-project-title {
+
+    font-size: 50px;
+
+    font-weight: 550;
+
+    line-height: 0.96;
+
+    letter-spacing: -2.5px;
+
+    color: #ffffff;
+
+    margin-bottom: 40px;
+
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.about-project-description {
+
+    max-width: 620px;
+
+    font-size: 18px;
+
+    line-height: 1.35;
+
+    color: #e0e0e0;
+
+    margin-bottom: 28px;
+
+}
+
+
+/* =====================================================
+   PROJECT POINTS
+===================================================== */
+
+.about-project-points {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+}
+
+
+/* =====================================================
+   SINGLE POINT
+===================================================== */
+
+.about-point {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    font-size: 17px;
+
+    line-height: 1.3;
+
+    color: #ffffff;
+
+}
+
+
+/* =====================================================
+   CHECK ICON
+===================================================== */
+
+.about-check {
+
+    width: 22px;
+
+    height: 22px;
+
+    background-color: #ffffff;
+
+    color: #000000;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+}
+
+
+.about-check i {
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+/* =====================================================
+   IMAGE AREA
+===================================================== */
+
+.about-image {
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-single-image {
+    width: 110%;
+    max-width: none;
+    height: 450px;
+    display: block;
+    transform: translateX(-65px);
+    margin-bottom: -40px;
+}
+
+
+
+
+/* =====================================================
+   DIVIDER
+===================================================== */
+
+.about-divider {
+
+    width: 90%;
+
+    height: 2px;
+
+    background-color: #373737;
+
+    margin: 35px auto 35px;
+
+}
+
+
+/* =====================================================
+   BOTTOM FEATURES
+===================================================== */
+
+.about-features {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    align-items: start;
+
+    text-align: center;
+
+    gap: 160px;
+
+}
+
+
+/* =====================================================
+   SINGLE FEATURE
+===================================================== */
+
+.about-feature {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 11px;
+
+}
+
+
+/* =====================================================
+   FEATURE ICON
+===================================================== */
+
+.about-feature-icon {
+
+    width: 41px;
+
+    height: 41px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.about-feature-icon i {
+
+    font-size: 34px;
+
+    color: #ffffff;
+
+}
+
+
+/* =====================================================
+   FEATURE TEXT
+===================================================== */
+
+.about-feature p {
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    color: #ffffff;
+
+    margin: 0;
+
+}
+
+/* =====================================================
+   TECHNOLOGIES USED SECTION
+===================================================== */
+
+.technology-section {
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 750px;
+
+    background-color: #f7f6f3;
+
+    padding: 30px 4% 10px;
+
+    overflow: hidden;
+
+
+}
+
+
+/* =====================================================
+   BACKGROUND IMAGE
+===================================================== */
+
+.technology-bg {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url("../images/image\ 214.png");
+
+    background-repeat: no-repeat;
+
+    background-position: top right;
+
+    background-size: 900px;
+
+    opacity: 0.45;
+
+    z-index: 0;
+
+    pointer-events: none;
+
+}
+
+
+/* =====================================================
+   CONTENT ABOVE BACKGROUND
+===================================================== */
+
+.technology-section .container-fluid {
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+
+/* =====================================================
+   INTRO
+===================================================== */
+
+.technology-intro {
+
+    padding-left: 5px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.technology-label {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #77736f;
+
+    margin-bottom: 18px;
+
+}
+
+
+.technology-title {
+
+    font-size: 50px;
+
+    font-weight: 600;
+
+    line-height: 0.98;
+
+    letter-spacing: -2.5px;
+
+    color: #151515;
+
+    margin: 0 0 25px;
+
+}
+
+
+.technology-description {
+
+    max-width: 800px;
+
+    font-size: 20px;
+
+    line-height: 1.10;
+
+    color: #64615d;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   TECHNOLOGY BOX
+===================================================== */
+
+.technology-box {
+
+    width: 75%;
+
+    min-height: 0px;
+
+    background-color: #202020;
+
+    border-radius: 17px;
+
+    padding: 28px 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 15px;
+
+}
+
+
+/* =====================================================
+   TECHNOLOGY INFORMATION
+===================================================== */
+
+.technology-info {
+
+    width: 275px;
+
+    flex-shrink: 0;
+
+}
+
+
+.technology-info h3 {
+
+    font-size: 28px;
+
+    font-weight: 500;
+
+    color: #ffffff;
+
+    margin-bottom: 24px;
+
+}
+
+
+.technology-info p {
+
+    font-size: 17px;
+
+    line-height: 1.35;
+
+    color: #d2d2d2;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   TECHNOLOGY LIST
+===================================================== */
+
+.technology-list {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 17px;
+
+}
+
+
+/* =====================================================
+   TECHNOLOGY CARD
+===================================================== */
+
+.technology-card {
+
+    flex: 0 0 110px;
+
+    min-width: 120px;
+
+    height: 150px;
+
+    padding: 20px 12px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #d9d9d9;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+/* =====================================================
+   TECHNOLOGY ICON
+===================================================== */
+
+.technology-card img {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+
+/* =====================================================
+   TECHNOLOGY NAME
+===================================================== */
+
+.technology-card h4 {
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    color: #171717;
+
+    text-align: center;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   BACKEND BOX
+===================================================== */
+
+.backend-box {
+    width: 94%;
+    margin-top: 32px;
+
+}
+
+
+.backend-list {
+
+    gap: 15px;
+
+}
+
+/* =====================================================
+   CHALLENGES & SOLUTIONS SECTION
+===================================================== */
+
+.challenges-section {
+
+    width: 100%;
+
+    background-color: #000000;
+
+    color: #ffffff;
+
+    padding: 40px 1% 70px;
+
+    border-top: 1px solid #d8d2c8;
+
+    overflow: hidden;
+
+}
+
+
+/* =====================================================
+   INTRO
+===================================================== */
+
+.challenges-intro {
+
+    padding-left: 30px;
+
+    margin-bottom: 55px;
+
+}
+
+
+.challenges-label {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #ffffff;
+
+    margin: 0 0 18px;
+
+}
+
+
+.challenges-title {
+
+    font-size: 50px;
+
+    font-weight: 600;
+
+    line-height: 1.05;
+
+    letter-spacing: -2px;
+
+    color: #dfe5ef;
+
+    margin: 0 0 32px;
+
+}
+
+
+.challenges-description {
+
+    max-width: 650px;
+
+    font-size: 20px;
+
+    line-height: 1.20;
+
+    color: #d2d2d2;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   GRID
+===================================================== */
+
+.challenges-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1.25fr 0.9fr 1.25fr 0.9fr;
+
+    column-gap: 10px;
+
+    row-gap: 40px;
+
+    padding: 0 35px;
+
+}
+
+/* Increase gap between left and right groups */
+
+.challenges-grid> :nth-child(3),
+.challenges-grid> :nth-child(4),
+.challenges-grid> :nth-child(7),
+.challenges-grid> :nth-child(8) {
+
+    margin-left: 5px;
+
+}
+
+/* Smaller gap between right-side cards */
+
+.challenges-grid> :nth-child(4),
+.challenges-grid> :nth-child(8) {
+
+    margin-left: 6px;
+
+}
+
+
+/* =====================================================
+   CHALLENGE CARD
+===================================================== */
+
+.challenge-card {
+
+    height: 140px;
+    width: 100%;
+    background-color: #111115;
+
+    border: 1px solid #29292e;
+
+    border-radius: 17px;
+
+    padding: 22px 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+}
+
+
+/* =====================================================
+   CHALLENGE HEADING
+===================================================== */
+
+.challenge-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+
+}
+
+
+.challenge-number {
+
+    width: 35px;
+
+    height: 35px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #ffc27f;
+
+    color: #111111;
+
+    border-radius: 50%;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+}
+
+
+.challenge-heading h3 {
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+    color: #ffc27f;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   CHALLENGE DESCRIPTION
+===================================================== */
+
+.challenge-card>p {
+
+    font-size: 16px;
+
+    line-height: 1.35;
+
+    color: #f0f0f0;
+
+    margin: 18px 0 0;
+
+}
+
+
+/* =====================================================
+   SOLUTION CARD
+===================================================== */
+
+.solution-card {
+
+    min-height: 140px;
+
+    background-color: #ffffff;
+
+    border-radius: 17px;
+
+    padding: 22px 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+}
+
+
+/* =====================================================
+   SOLUTION HEADING
+===================================================== */
+
+.solution-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+.solution-icon {
+
+    width: 26px;
+
+    height: 26px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #151515;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+}
+
+
+.solution-icon i {
+
+    font-size: 14px;
+
+}
+
+
+.solution-heading h3 {
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #181818;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   SOLUTION DESCRIPTION
+===================================================== */
+
+.solution-card>p {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 1.35;
+
+    color: #394454;
+
+    margin: 15px 0 10px;
+
+}
+
+/* =====================================================
+   RESULTS WE DELIVERED
+===================================================== */
+
+.results-section {
+
+    width: 100%;
+
+    min-height: 400px;
+
+    background-color: #f7f6f3;
+
+    padding: 20px 3% 10px;
+
+    overflow: hidden;
+
+}
+
+
+/* =====================================================
+   MAIN WRAPPER
+===================================================== */
+
+.results-wrapper {
+
+    width: 100%;
+
+    min-height: 400px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 40px;
+
+}
+
+
+/* =====================================================
+   LEFT CONTENT
+===================================================== */
+
+.results-content {
+
+    width: 58%;
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.results-label {
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    color: #706d69;
+
+    margin: -100px 0 10px;
+
+}
+
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.results-title {
+
+    max-width: 1550px;
+
+    font-size: 50px;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+
+    letter-spacing: -2.5px;
+
+    color: #151515;
+
+    margin: 0 0 10px;
+
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.results-description {
+
+    max-width: 850px;
+
+    font-size: 21px;
+
+    line-height: 1.4;
+
+    color: #697180;
+
+    margin-top: 30px;
+
+}
+
+
+/* =====================================================
+   RESULT FEATURES
+===================================================== */
+
+.results-features {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 10px;
+
+    margin-top: 70px;
+
+    max-width: 850px;
+
+}
+
+
+/* =====================================================
+   RESULT ITEM
+===================================================== */
+
+.result-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+}
+
+
+/* =====================================================
+   RESULT ICON
+===================================================== */
+
+.result-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-color: #eee9e0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-bottom: 15px;
+
+}
+
+
+.result-icon i {
+
+    font-size: 22px;
+
+    color: #282828;
+
+}
+
+
+/* =====================================================
+   RESULT TITLE
+===================================================== */
+
+.result-item h3 {
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    line-height: 1.25;
+
+    color: #171717;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   RIGHT IMAGE
+===================================================== */
+
+.results-visual {
+
+    width: 40%;
+
+    min-height: 570px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+}
+
+
+/* =====================================================
+   PROVIDED IMAGE
+===================================================== */
+
+.results-visual img {
+
+    width: 100%;
+
+    max-width: 720px;
+
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+
+}
+
+
+
+/* =====================================================
+   FINAL CTA SECTION
+===================================================== */
+
+.final-cta-section {
+
+    width: 100%;
+
+    height: 400px;
+
+    position: relative;
+
+    background-image: url("../images/Atmospheric beauty eye detail.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+}
+
+
+/* =====================================================
+   DARK OVERLAY
+===================================================== */
+
+.final-cta-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.764);
+
+    z-index: 1;
+
+}
+
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.final-cta-section .container-fluid {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+.final-cta-content {
+
+    position: relative;
+
+    min-height: 500px;
+
+    padding: 65px 3% 45px;
+
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.final-cta-label {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #ffffff;
+
+    margin: 0 0 20px;
+
+}
+
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.final-cta-title {
+
+    font-size: 68px;
+
+    font-weight: 550;
+
+    line-height: 1;
+
+    letter-spacing: -3px;
+
+    color: #ffffff;
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.final-cta-description {
+
+    font-size: 19px;
+
+    line-height: 1.4;
+
+    color: #e4e4e4;
+
+    margin: 55px 0 0;
+
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.final-cta-button {
+
+    position: absolute;
+
+    top: 65px;
+
+    right: 3%;
+
+    min-width: 10px;
+
+    height: 50px;
+
+    padding: 0 25px;
+
+    background-color: #ffffff;
+
+    color: #111111;
+
+    border-radius: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+
+/* =====================================================
+   ARROW
+===================================================== */
+
+.cta-arrow {
+
+    font-size: 22px;
+
+    line-height: 1;
+
+}
+
+
+/* =====================================================
+   BOTTOM LINE
+===================================================== */
+
+.final-cta-line {
+
+    position: absolute;
+
+    left: 3%;
+
+    right: 3%;
+
+    bottom: 75px;
+
+    height: 1px;
+
+    background-color: rgba(255, 255, 255, 0.18);
+
+}
